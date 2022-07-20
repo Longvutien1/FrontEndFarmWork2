@@ -74,6 +74,14 @@ const ListProduct = () => {
             render: text => <a>{text}</a>,
         },
         {
+            title: 'Hình ảnh',
+            dataIndex: 'image',
+            key: 'image',
+            render: text => <img src={text} alt=""  width={100}/>,
+
+
+        },
+        {
             title: 'Đặc điểm',
             dataIndex: 'feature',
             key: 'feature',

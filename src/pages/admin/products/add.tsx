@@ -1,24 +1,33 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import styled from "styled-components";
 import { Typography, Col, Row, Button, Checkbox, Form, Input, InputNumber, Select, message } from 'antd'
-// import UploadImage from "../../../components/Product/UploadImage";
-// import { createProduct } from "../../../api/product";
 import { useNavigate } from "react-router-dom";
 import { add } from '../../../api/products';
 import UploadImage from '../../../components/product/UploadImage';
-// import UploadTest from "../../../components/Product/UploadTest";
+import { listCate } from '../../../api/category';
 
 const { TextArea } = Input
 const { Option } = Select;
 
 const AddProduct = () => {
 	const [image, setUploadedImage] = React.useState('')
+	const [category, setCategory] = useState([])
 	const navigate = useNavigate()
 	const onHandleAdd = (image: any) => {
 		// console.log(image);
 		setUploadedImage(image.img)
 
 	}
+
+	useEffect(() => {
+        const listcategory = async () => {
+            const { data } = await listCate();
+            console.log(data);
+
+            setCategory(data)
+        }
+        listcategory();
+    }, [])
 	const onFinish = async (values: any) => {
 		console.log('Success:', values);
 		console.log(image);
@@ -38,7 +47,8 @@ const AddProduct = () => {
 				const data = await add({ ...values, image })
 				// console.log(data);
 
-				message.success("Tạo mới thành công")
+				message.success("Tạo mới thành công");
+				navigate("/admin")
 			}
 
 			// navigate(-1)
@@ -113,12 +123,9 @@ const AddProduct = () => {
 									rules={[{ required: true }]}
 								>
 									<Select style={{ width: '100%' }} size="large">
-										<Option value="phone">Điện thoại</Option>
-										<Option value="laptop">Laptop</Option>
-										<Option value="accessories" disabled>
-											Phụ kiện
-										</Option>
-										<Option value="tablet">Máy tính bảng</Option>
+										{category.map((item:any) => (
+											<Option value={item.name}>{item.name}</Option>
+										))}
 									</Select>
 								</Form.Item>
 							</Col>

@@ -43,7 +43,7 @@ const UploadImage = ({onAdd}:AddImageProps) => {
             <UploadWrapper>
                 <UploadIcon>
                     <PlusCircleOutlined style={{fontSize: 30}}/>
-                    <input
+                    <input 
                         type="file"
                         accept="image/png, image/jpg, image/jpeg, image/gif"
                         name="image" onChange={handleChangeImage} />
@@ -52,7 +52,7 @@ const UploadImage = ({onAdd}:AddImageProps) => {
                 <Typography.Title level={5}>Thêm ảnh</Typography.Title> */}
 
                 {uploadedImage && (
-                    <ImagePreview style={{}} src={uploadedImage} alt="Image" />
+                    <ImagePreview style={{width:"200px"}} src={uploadedImage} alt="Image"  id="imgPreview" />
                 )}
             </UploadWrapper>
             <Label>Mô tả ngắn</Label>

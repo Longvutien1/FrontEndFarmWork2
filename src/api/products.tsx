@@ -6,6 +6,11 @@ export const listProduct:any = () => {
     return instance.get(url);
 }
 
+export const getProductId:any = (id:any) => {
+    const url = `/products/${id}`;
+    return instance.get(url);
+}
+
 export const add:any = (product:any) => {
     const url = `/products`;
     return instance.post(url, product);
