@@ -3,11 +3,16 @@ import styled from "styled-components";
 import { Typography, Button, Input } from 'antd'
 import { PlusCircleOutlined } from '@ant-design/icons';
 import axios from "axios";
-import { upload } from "../../api/products";
+import { upload } from "../../api/uploadImage";
+// import { upload } from "../../api/products";
 
 const { TextArea } = Input
+type  AddImageProps  = {
+    onAdd: (image: any) => void
+   
+}
 
-const UploadImage = () => {
+const UploadImage = ({onAdd}:AddImageProps) => {
     const [base64Image, setBase64Image] = React.useState('')
     const [uploadedImage, setUploadedImage] = React.useState('')
 
@@ -21,11 +26,12 @@ const UploadImage = () => {
         }
     }
 
-    const uploadImage = async (base64Image: string) => {
+    const uploadImage:any = async (base64Image: string) => {
         try {
             const { data } = await upload(base64Image)
             // const data = res.data
             console.log(data)
+            onAdd({img:data.url})
             setUploadedImage(data.url)
         } catch (err) {
             console.log(err)

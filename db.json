@@ -1,23 +1,34 @@
 {
-    "products": [
-      {
-        "id": 1,
-        "name": "product a",
-        "price":1200,
-        "desc":"sản phẩm xuất xứ tại đây"
-      },
-      { 
-        "id": 2,
-        "name": "product b",
-        "price":1200,
-        "desc":"sản phẩm xuất xứ tại đây"
-      },
-      {
-        "id": 3,
-        "name": "product c",
-        "price":1200,
-        "desc":"sản phẩm xuất xứ tại đây"
-      }
-  
-    ]
-  }
+  "products": [
+    {
+      "name": "Vũ Tiến Long123",
+      "originalPrice": 1211,
+      "saleOffPrice": 12,
+      "categories": "laptop",
+      "feature": "12212",
+      "description": "2122",
+      "image": "http://res.cloudinary.com/dv3vzmogk/image/upload/v1658328011/anhhtus/rccx8mwieqpfitirpl3h.jpg",
+      "id": 2
+    },
+    {
+      "name": "Vũ Tiến Long123",
+      "originalPrice": 1211,
+      "saleOffPrice": 12,
+      "categories": "laptop",
+      "feature": "12212",
+      "description": "2122",
+      "image": "http://res.cloudinary.com/dv3vzmogk/image/upload/v1658328011/anhhtus/rccx8mwieqpfitirpl3h.jpg",
+      "id": 3
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "iphone"
+    },
+    {
+      "id": 1,
+      "name": "laptop"
+    }
+  ]
+}

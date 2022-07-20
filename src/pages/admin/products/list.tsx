@@ -1,12 +1,14 @@
 import React, { useEffect, useState } from 'react'
 import styled from "styled-components";
-import { Typography, Button, Table } from 'antd';
-import { Link } from 'react-router-dom'
+import { Typography, Button, Table, Space, Popconfirm, Modal, message } from 'antd';
+import { Link, useNavigate } from 'react-router-dom'
 import { SearchOutlined, PlusOutlined } from '@ant-design/icons';
 import type { ColumnsType } from 'antd/es/table';
 
-import { listProduct } from '../../../api/products';
+import { listProduct, removeProduct } from '../../../api/products';
 import { QueryClient, QueryClientProvider, useQuery } from 'react-query'
+import { listCate } from '../../../api/category';
+
 // import { useQuery } from 'react-query'
 const { Paragraph } = Typography
 
@@ -18,55 +20,122 @@ interface DataType {
     description: string;
 }
 
-const columns: ColumnsType<DataType> = [
-    {
-        title: 'Tên sản phẩm',
-        dataIndex: 'name',
-        key: 'name',
-        render: text => <a>{text}</a>,
-    },
-    {
-        title: 'Đặc điểm',
-        dataIndex: 'feature',
-        key: 'feature',
-        render: text => <a>{text}</a>,
-    },
-    {
-        title: 'Giá khuyến mãi',
-        dataIndex: 'price',
-        key: 'price',
-    },
-    {
-        title: 'Mô tả',
-        dataIndex: 'desc',
-        key: 'desc',
-    },
-];
-
+type ProductManagerProps = {
+    
+    // onRemoveProduct: (id:number) => void
+}
 
 
 const ListProduct = () => {
+
     const [dataTable, setDataTable] = useState([])
+    const [category, setCategory] = useState([])
+    const [confirmLoading, setConfirmLoading] = useState(false);
     // const [isLoading, setIsLoading] = useState(false)
-    const queryClient = new QueryClient();
+    const navigate = useNavigate();
 
-    const fetchData =  async () => {
-        const data = await listProduct()
-        console.log(data)
-        setDataTable(data.data)
-    }
 
-    // fetchData()
-    useEffect(() => {        
-    
+
+
+    useEffect(() => {
+        const listcategory = async () => {
+            const { data } = await listCate();
+            console.log(data);
+
+            setCategory(data)
+        }
+        listcategory();
     }, [])
 
-    const {isLoading, data, error} = useQuery<any>(['Product'], listProduct)
-    console.log(data);
+    const { isLoading, data, error } = useQuery<any>(['Product'], listProduct)
     
+    // setProduct(data)
+
+    const onRemoveProduct = (id: any) => {
+        setConfirmLoading(true);
+        message.loading({ content: 'Loading...' });
+
+        setTimeout(() => {
+            
+            removeProduct(id);
+            setConfirmLoading(false);
+
+            message.success({ content: 'Xóa Thành Công!', duration: 2 });
+
+            navigate("/admin")
+        }, 1000)
+    }
+    
+    const columns: ColumnsType<DataType> = [
+        {
+            title: 'Tên sản phẩm',
+            dataIndex: 'name',
+            key: 'name',
+            render: text => <a>{text}</a>,
+        },
+        {
+            title: 'Đặc điểm',
+            dataIndex: 'feature',
+            key: 'feature',
+            render: text => <a>{text}</a>,
+
+
+        },
+        {
+            title: 'Loại hàng',
+            dataIndex: 'categories',
+            key: 'categories',
+            filters: category.map((item: any) => { return { text: item.name, value: item.name } }),
+            onFilter: (value, record: any) => {
+                console.log(record.categories);
+                console.log(value);
+
+                return record.categories == value
+            }
+        },
+        {
+            title: 'Giá khuyến mãi',
+            dataIndex: 'saleOffPrice',
+            key: 'saleOffPrice',
+        },
+        {
+            title: 'Mô tả',
+            dataIndex: 'description',
+            key: 'description',
+        },
+        {
+            title: "Hành Động", key: "action", render: (text, record: any) => (
+                <Space align="center" size="middle">
+                    <Button style={{ background: "#198754", color: "#fff" }} >
+                        <Link to={`/admin/product/edit/${record.id}`} >
+                            <span className="text-white">Sửa</span>
+                        </Link>
+
+                    </Button>
+
+                    <Popconfirm
+                        placement="topRight"
+                        title="Bạn Có Muốn Xóa?"
+                        okText="Có"
+                        cancelText="Không"
+                        onConfirm={() => { onRemoveProduct(record.id) }}
+                        okButtonProps={{ loading: confirmLoading }}
+                    //   onCancel={handleCancel}
+                    >
+                        <Button type="primary" danger >
+                            Xóa
+                        </Button>
+                    </Popconfirm>
+
+                </Space>
+            ),
+        }
+    ];
+
+
     return (
         <>
-        
+
             <Breadcrumb>
                 <Typography.Title level={2} style={{ margin: 0 }}>
                     Điện thoại
@@ -76,7 +145,7 @@ const ListProduct = () => {
                 </Link>
             </Breadcrumb>
             <Table loading={isLoading} columns={columns} dataSource={data?.data} />
-           
+
         </>
     )
 }
