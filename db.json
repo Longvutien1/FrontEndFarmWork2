@@ -1,0 +1,23 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "name": "product a",
+        "price":1200,
+        "desc":"sản phẩm xuất xứ tại đây"
+      },
+      { 
+        "id": 2,
+        "name": "product b",
+        "price":1200,
+        "desc":"sản phẩm xuất xứ tại đây"
+      },
+      {
+        "id": 3,
+        "name": "product c",
+        "price":1200,
+        "desc":"sản phẩm xuất xứ tại đây"
+      }
+  
+    ]
+  }

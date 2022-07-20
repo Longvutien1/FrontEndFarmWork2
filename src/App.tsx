@@ -4,6 +4,10 @@ import './App.css'
 
 import WebsiteLayout from './components/layout/WebsiteLayout'
 import AdminLayout from './components/layout/AdminLayout'
+import { Navigate, Route, Routes } from 'react-router-dom'
+import ListProduct from './pages/admin/products/list'
+import AddProduct from './pages/admin/products/add'
+
 
 
 function App() {
@@ -12,8 +16,18 @@ function App() {
   const newLocal = "auto"
   return (
     <div >
-      <AdminLayout/>
+      <Routes>
+        <Route path='/' element={<WebsiteLayout />}></Route>
 
+        <Route path='/admin' element={<AdminLayout />}>
+          <Route index element={<Navigate to={"product"} />} />
+          <Route path='product'>
+            <Route index element={<ListProduct />} />
+            <Route path='add' element={<AddProduct />} />
+          </Route>
+
+        </Route>
+      </Routes>
     </div>
   )
 }
