@@ -65,6 +65,10 @@ const ListProduct = () => {
             navigate("/admin")
         }, 1000)
     }
+
+    const handAn = (id:any) => {
+        
+    }
     
     const columns: ColumnsType<DataType> = [
         {
@@ -97,7 +101,7 @@ const ListProduct = () => {
             onFilter: (value, record: any) => {
                 console.log(record.categories);
                 console.log(value);
-
+ 
                 return record.categories == value
             }
         },
@@ -120,7 +124,7 @@ const ListProduct = () => {
                         </Link>
 
                     </Button>
-
+                   
                     <Popconfirm
                         placement="topRight"
                         title="Bạn Có Muốn Xóa?"

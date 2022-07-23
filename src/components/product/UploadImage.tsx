@@ -37,6 +37,7 @@ const UploadImage = ({onAdd}:AddImageProps) => {
             console.log(err)
         }
     }
+    
 
     return (
         <Container>
