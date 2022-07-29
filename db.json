@@ -1,74 +1,98 @@
 {
   "products": [
     {
-      "name": "Phóng nợn 232",
-      "originalPrice": 1211,
-      "saleOffPrice": 12,
-      "categories": "laptop",
+      "name": "iPhone 11 64GB I Chính hãng VN/A",
+      "originalPrice": 18000000,
+      "saleOffPrice": 10790000,
+      "categories": "Iphone",
       "feature": "12212",
-      "description": "2122",
-      "image": "http://res.cloudinary.com/dv3vzmogk/image/upload/v1658362998/anhhtus/uplirhtatet2hylkcsxq.jpg",
+      "description": "[HOT] Thu cũ lên đời giá cao - Thủ tục nhanh - Trợ giá lên tới 1.000.000đ",
+      "image": "http://res.cloudinary.com/dv3vzmogk/image/upload/v1658830599/anhhtus/sen2m2ofvbik6ddg0lui.png",
       "id": 5
     },
     {
-      "name": "Vũ Tiến Long 23",
-      "originalPrice": 1212,
-      "saleOffPrice": 12,
-      "categories": "iphone",
+      "name": "iPhone 13 Pro Max 128GB | Chính hãng VN/A",
+      "originalPrice": 34990000,
+      "saleOffPrice": 27390000,
+      "categories": "Iphone",
       "feature": "1212aa",
-      "description": "212aaaa",
-      "image": "http://res.cloudinary.com/dv3vzmogk/image/upload/v1658330799/anhhtus/glpyqcweucxiqpbkmc9p.png",
+      "description": "Thu cũ lên đời - Trợ giá 1 triệu",
+      "image": "http://res.cloudinary.com/dv3vzmogk/image/upload/v1658830588/anhhtus/of3vjuw7xmwduwzeksml.png",
       "id": 6
     },
     {
-      "name": "Bruno Fernandes",
-      "originalPrice": 999999,
-      "saleOffPrice": 1,
-      "categories": "iphone",
+      "name": "iPhone 12 Pro Max 128GB I Chính hãng VN/A",
+      "originalPrice": 32990000,
+      "saleOffPrice": 25590000,
+      "categories": "Iphone",
       "feature": "12122",
-      "description": "12122",
-      "image": "http://res.cloudinary.com/dv3vzmogk/image/upload/v1658331294/anhhtus/nf9nxqjv8bjkd2eg1lga.jpg",
+      "description": "[HOT] Thu cũ lên đời giá cao - Thủ tục nhanh - Trợ giá lên tới 1.000.000đ và nhiều ưu đãi khác",
+      "image": "http://res.cloudinary.com/dv3vzmogk/image/upload/v1658830618/anhhtus/ff45qkjewoorfhznylmc.png",
       "id": 7
     },
     {
-      "name": "Ro 7",
-      "originalPrice": 12122,
-      "saleOffPrice": 12,
-      "categories": "laptop",
+      "name": "Samsung Galaxy S22 Ultra (8GB - 128GB)",
+      "originalPrice": 30990000,
+      "saleOffPrice": 25090000,
+      "categories": "Samsung",
       "feature": "112212",
-      "description": "131313",
-      "image": "http://res.cloudinary.com/dv3vzmogk/image/upload/v1658331354/anhhtus/bjjhejhgttexyikkcdap.jpg",
+      "description": "Dịch vụ phòng chờ hạng thương gia tại sân bay và",
+      "image": "http://res.cloudinary.com/dv3vzmogk/image/upload/v1658830633/anhhtus/w5nhbbigaiwpnjmhokji.png",
       "id": 8
     },
     {
-      "name": "jhjhhj",
-      "originalPrice": 659999,
-      "saleOffPrice": 656,
-      "categories": "iphone",
+      "name": "iPhone 13 128GB | Chính hãng VN/A",
+      "originalPrice": 24990000,
+      "saleOffPrice": 19590000,
+      "categories": "Iphone",
       "feature": "gfgf",
-      "description": "hgfhvh",
-      "image": "http://res.cloudinary.com/dv3vzmogk/image/upload/v1658367631/anhhtus/qbucdlnziqhwtbhexjfh.jpg",
+      "description": "Thu cũ lên đời - Trợ giá 1 triệu",
+      "image": "http://res.cloudinary.com/dv3vzmogk/image/upload/v1658830645/anhhtus/ubv0pctf8lbsep8chwcq.png",
       "id": 9
     },
     {
-      "name": "sản phẩm mới ",
-      "originalPrice": 1211111111,
-      "saleOffPrice": 121221,
-      "categories": "laptop",
+      "name": "Xiaomi Redmi Note 11",
+      "originalPrice": 4690000,
+      "saleOffPrice": 3850000,
+      "categories": "Xiaomi",
       "feature": "feff",
-      "description": "feeffef",
-      "image": "http://res.cloudinary.com/dv3vzmogk/image/upload/v1658537612/anhhtus/alqbm2afc8un0urblciy.png",
+      "description": "Thu cũ đổi mới - Trợ giá đến 300.000đ",
+      "image": "http://res.cloudinary.com/dv3vzmogk/image/upload/v1658830654/anhhtus/xja3lvci8xqqjnfok0xx.png",
       "id": 10
+    },
+    {
+      "name": "iPhone 12 64GB I Chính hãng VN/A",
+      "originalPrice": 22990000,
+      "saleOffPrice": 15990000,
+      "categories": "Iphone",
+      "feature": "1212",
+      "description": "[HOT] Thu cũ lên đời giá cao - Thủ tục nhanh - Trợ giá lên tới 1.000.000đ",
+      "image": "http://res.cloudinary.com/dv3vzmogk/image/upload/v1658830662/anhhtus/nsnuiq4dbgaxisvpuwla.png",
+      "id": 11
+    },
+    {
+      "name": "Vũ Tiến Long",
+      "originalPrice": 12122,
+      "saleOffPrice": 111,
+      "categories": "Iphone",
+      "feature": "1212",
+      "description": "12122",
+      "image": "http://res.cloudinary.com/dv3vzmogk/image/upload/v1658831075/anhhtus/ptb1jt7ngvixnwzktd2e.png",
+      "id": 12
     }
   ],
   "categories": [
     {
-      "id": 1,
-      "name": "iphone"
+      "name": "Iphone",
+      "id": 1
     },
     {
-      "id": 1,
-      "name": "laptop"
+      "name": "Samsung",
+      "id": 2
+    },
+    {
+      "name": "Xiaomi",
+      "id": 3
     }
   ]
 }

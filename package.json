@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "scripts": {
-    "server": "json-server json-server-auth --watch db.json --port 3002",
+    "server": "json-server-auth --watch db.json --port 3002",
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview"

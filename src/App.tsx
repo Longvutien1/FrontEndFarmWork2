@@ -11,6 +11,8 @@ import EditProduct from './pages/admin/products/edit'
 import ListCategory from './pages/admin/category/list'
 import { ProductType } from './types.tsx/type'
 import { removeProduct } from './api/products'
+import AddCategory from './pages/admin/category/add'
+import EditCategory from './pages/admin/category/edit'
 
 
 
@@ -23,7 +25,7 @@ function App() {
     <div >
       <Routes>
         <Route path='/' element={<WebsiteLayout />}></Route>
-
+       
         <Route path='/admin' element={<AdminLayout />}>
           <Route index element={<Navigate to={"product"} />} />
           <Route path='product'>
@@ -32,10 +34,10 @@ function App() {
             <Route path='edit/:id' element={<EditProduct />} />
 
           </Route>
-          <Route path='category'>
+          <Route path='categories'>
             <Route index element={<ListCategory />} />
-            
-
+            <Route path='add' element={<AddCategory />} />
+            <Route path='edit/:id' element={<EditCategory />} />
           </Route>
         </Route>
       </Routes>

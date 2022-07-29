@@ -46,7 +46,7 @@ const HeaderCo = styled.div`
     padding: 5px 10px
 `
 const Menu = styled.div`
-    width:1200px;
+    width:80%;
     display:grid ;
     grid-template-columns: 2fr 4fr 5fr;
     margin:auto;

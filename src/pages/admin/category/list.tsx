@@ -1,13 +1,13 @@
 import React, { useEffect, useState } from 'react'
 import styled from "styled-components";
 import { Typography, Button, Table, Space, Popconfirm, message } from 'antd';
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 import { SearchOutlined, PlusOutlined } from '@ant-design/icons';
 import type { ColumnsType } from 'antd/es/table';
 
 import { listProduct } from '../../../api/products';
 import { QueryClient, QueryClientProvider, useQuery } from 'react-query'
-import { listCate } from '../../../api/category';
+import { listCate, removeCate } from '../../../api/category';
 // import { useQuery } from 'react-query'
 const { Paragraph } = Typography
 
@@ -26,6 +26,7 @@ const ListCategory = () => {
     const [dataTable, setDataTable] = useState([])
     // const [isLoading, setIsLoading] = useState(false)
     const queryClient = new QueryClient();
+    const navigate = useNavigate();
     const [confirmLoading, setConfirmLoading] = useState(false);
     const fetchData =  async () => {
         const data = await listProduct()
@@ -33,19 +34,20 @@ const ListCategory = () => {
         setDataTable(data.data)
     }
 
-    const onRemoveCate = (id: any) => {
+    const onRemoveCate = async (id: any) => {
         setConfirmLoading(true);
         message.loading({ content: 'Loading...' });
 
         setTimeout(() => {
             
-            // remove(id);
+            removeCate(id);
             setConfirmLoading(false);
 
             message.success({ content: 'Xóa Thành Công!', duration: 2 });
 
-            // navigate("/admin")
+            // navigate("/admin/categories")
         }, 1000)
+       
     }
 
     // fetchData()
@@ -75,7 +77,7 @@ const ListCategory = () => {
             title: "Hành Động", key: "action", render: (text, record: any) => (
                 <Space align="center" size="middle">
                     <Button style={{ background: "#198754", color: "#fff" }} >
-                        <Link to={`/admin/product/edit/${record.id}`} >
+                        <Link to={`/admin/categories/edit/${record.id}`} >
                             <span className="text-white">Sửa</span>
                         </Link>
     
@@ -108,7 +110,7 @@ const ListCategory = () => {
                 <Typography.Title level={2} style={{ margin: 0 }}>
                     Điện thoại
                 </Typography.Title>
-                <Link to="/admin/product/add">
+                <Link to="/admin/categories/add">
                     <Button type="dashed" shape="circle" icon={<PlusOutlined />} />
                 </Link>
             </Breadcrumb>
