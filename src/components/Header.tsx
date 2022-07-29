@@ -7,7 +7,9 @@ import Search from 'antd/lib/transfer/search';
 import { Col, Row } from 'antd'
 import { UserOutlined } from '@ant-design/icons';
 import MenuHeader from './MenuHeader';
+import { useCart } from 'react-use-cart';
 const Header = () => {
+   
     return (
 
         <HeaderCo style={{padding:"10px 0"}} >

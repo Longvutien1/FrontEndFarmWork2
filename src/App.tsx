@@ -13,19 +13,28 @@ import { ProductType } from './types.tsx/type'
 import { removeProduct } from './api/products'
 import AddCategory from './pages/admin/category/add'
 import EditCategory from './pages/admin/category/edit'
+import HomePage from './pages/Home'
+import DetailProduct from './pages/DetailProduct'
+import CartPage from './pages/Cart'
+import { CartProvider } from 'react-use-cart'
 
 
 
 function App() {
   const [count, setCount] = useState(0)
- 
+
 
   const newLocal = "auto"
   return (
     <div >
       <Routes>
-        <Route path='/' element={<WebsiteLayout />}></Route>
        
+          <Route path='/' element={ <CartProvider><WebsiteLayout /></CartProvider>}>
+            <Route index element={<HomePage />} />
+            <Route path='/detail/:id' element={<DetailProduct />} />
+            <Route path='/cart' element={<CartPage />} />
+          </Route>
+
         <Route path='/admin' element={<AdminLayout />}>
           <Route index element={<Navigate to={"product"} />} />
           <Route path='product'>
