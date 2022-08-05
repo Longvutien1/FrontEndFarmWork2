@@ -5,6 +5,8 @@ import { useNavigate } from "react-router-dom";
 import { add } from '../../../api/products';
 import UploadImage from '../../../components/product/UploadImage';
 import { listCate } from '../../../api/category';
+import { useDispatch, useSelector } from 'react-redux';
+import { getListCateDetailById } from '../../../features/Slide/categoryPhone/catePhone';
 
 const { TextArea } = Input
 const { Option } = Select;
@@ -13,6 +15,8 @@ const AddProduct = () => {
 	const [image, setUploadedImage] = React.useState('')
 	const [category, setCategory] = useState([])
 	const navigate = useNavigate()
+	const dispatch = useDispatch();
+	const [listCateDetail, setListCateDetail] = useState([])
 	const onHandleAdd = (image: any) => {
 		// console.log(image);
 		setUploadedImage(image.img)
@@ -22,12 +26,19 @@ const AddProduct = () => {
 	useEffect(() => {
         const listcategory = async () => {
             const { data } = await listCate();
-            console.log(data);
+            // console.log(data);
 
             setCategory(data)
         }
         listcategory();
+		
     }, [])
+
+	const handlerChangeCate = async (e:any) => {
+		console.log(e);
+		const {payload} = await dispatch(getListCateDetailById(Number(e)))
+		setListCateDetail(payload)
+	}
 	const onFinish = async (values: any) => {
 		console.log('Success:', values);
 		console.log(image);
@@ -116,19 +127,35 @@ const AddProduct = () => {
 
 								</Form.Item>
 							</Col>
+
 							<Col span={12}>
 								<Form.Item
 									label="Phân loại"
 									name="categories"
 									rules={[{ required: true }]}
 								>
-									<Select style={{ width: '100%' }} size="large">
-										{category.map((item:any) => (
-											<Option value={item.name}>{item.name}</Option>
+									<Select style={{ width: '100%' }} size="large"  onChange={(e) => handlerChangeCate(e)}>
+										{category.map((item:any, index) => (
+											<Option value={item.id} key={index + 1}>{item.name}</Option>
 										))}
 									</Select>
 								</Form.Item>
 							</Col>
+							{listCateDetail != [] ?
+								<Col span={12}>
+								<Form.Item
+									label="Dòng sản phẩm"
+									name="detailCate"
+									rules={[{ required: true }]}
+								>
+									<Select style={{ width: '100%' }} size="large"  >
+										{listCateDetail.map((item:any, index) => (
+											<Option value={item.id} key={index + 1}>{item.name}</Option>
+										))}
+									</Select>
+								</Form.Item>
+							</Col>
+							: ""}
 						</Row>
 
 						<Form.Item

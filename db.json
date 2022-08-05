@@ -4,17 +4,19 @@
       "name": "iPhone 11 64GB I Chính hãng VN/A",
       "originalPrice": 18000000,
       "saleOffPrice": 10790000,
-      "categories": "Iphone",
+      "categories": 1,
+      "detailCate": 1,
       "feature": " Trước khi mua bất kỳ chiếc điện thoại nào, người dùng cũng sẽ quan tâm đến thiết kế sản phẩm trước. Với phiên bản A73, Samsung đã tạo nên một chiếc smartphone với vẻ ngoài mang đến cảm giác sang trọng và tinh tế.",
       "description": "[HOT] Thu cũ lên đời giá cao - Thủ tục nhanh - Trợ giá lên tới 1.000.000đ ",
-      "image": "http://res.cloudinary.com/dv3vzmogk/image/upload/v1659095818/anhhtus/pehutupnqb9zkobivzyb.png",
+      "image": "http://res.cloudinary.com/dv3vzmogk/image/upload/v1659121735/anhhtus/i4md2zz0tjbcxic7daze.png",
       "id": 5
     },
     {
       "name": "iPhone 13 Pro Max 128GB | Chính hãng VN/A",
       "originalPrice": 34990000,
       "saleOffPrice": 27390000,
-      "categories": "Iphone",
+      "categories": 1,
+      "detailCate": 1,
       "feature": "1212aa",
       "description": "Thu cũ lên đời - Trợ giá 1 triệu",
       "image": "http://res.cloudinary.com/dv3vzmogk/image/upload/v1658830588/anhhtus/of3vjuw7xmwduwzeksml.png",
@@ -24,7 +26,8 @@
       "name": "iPhone 12 Pro Max 128GB I Chính hãng VN/A",
       "originalPrice": 32990000,
       "saleOffPrice": 25590000,
-      "categories": "Iphone",
+      "categories": 1,
+      "detailCate": 1,
       "feature": "12122",
       "description": "[HOT] Thu cũ lên đời giá cao - Thủ tục nhanh - Trợ giá lên tới 1.000.000đ và nhiều ưu đãi khác",
       "image": "http://res.cloudinary.com/dv3vzmogk/image/upload/v1658830618/anhhtus/ff45qkjewoorfhznylmc.png",
@@ -34,7 +37,8 @@
       "name": "Samsung Galaxy S22 Ultra (8GB - 128GB)",
       "originalPrice": 30990000,
       "saleOffPrice": 25090000,
-      "categories": "Samsung",
+      "categories": 1,
+      "detailCate": 2,
       "feature": "112212",
       "description": "Dịch vụ phòng chờ hạng thương gia tại sân bay và",
       "image": "http://res.cloudinary.com/dv3vzmogk/image/upload/v1658830633/anhhtus/w5nhbbigaiwpnjmhokji.png",
@@ -44,7 +48,8 @@
       "name": "iPhone 13 128GB | Chính hãng VN/A",
       "originalPrice": 24990000,
       "saleOffPrice": 19590000,
-      "categories": "Iphone",
+      "categories": 1,
+      "detailCate": 1,
       "feature": "gfgf",
       "description": "Thu cũ lên đời - Trợ giá 1 triệu",
       "image": "http://res.cloudinary.com/dv3vzmogk/image/upload/v1658830645/anhhtus/ubv0pctf8lbsep8chwcq.png",
@@ -54,7 +59,8 @@
       "name": "Xiaomi Redmi Note 11",
       "originalPrice": 4690000,
       "saleOffPrice": 3850000,
-      "categories": "Xiaomi",
+      "categories": 1,
+      "detailCate": 3,
       "feature": "feff",
       "description": "Thu cũ đổi mới - Trợ giá đến 300.000đ",
       "image": "http://res.cloudinary.com/dv3vzmogk/image/upload/v1658830654/anhhtus/xja3lvci8xqqjnfok0xx.png",
@@ -64,7 +70,8 @@
       "name": "iPhone 12 64GB I Chính hãng VN/A",
       "originalPrice": 22990000,
       "saleOffPrice": 15990000,
-      "categories": "Iphone",
+      "categories": 1,
+      "detailCate": 1,
       "feature": "1212",
       "description": "[HOT] Thu cũ lên đời giá cao - Thủ tục nhanh - Trợ giá lên tới 1.000.000đ",
       "image": "http://res.cloudinary.com/dv3vzmogk/image/upload/v1658830662/anhhtus/nsnuiq4dbgaxisvpuwla.png",
@@ -72,27 +79,129 @@
     },
     {
       "name": "Vũ Tiến Long",
-      "originalPrice": 12122,
-      "saleOffPrice": 111,
-      "categories": "Iphone",
-      "feature": "1212",
-      "description": "12122",
-      "image": "http://res.cloudinary.com/dv3vzmogk/image/upload/v1658831075/anhhtus/ptb1jt7ngvixnwzktd2e.png",
+      "originalPrice": 121222,
+      "saleOffPrice": 11212,
+      "categories": 2,
+      "detailCate": 5,
+      "feature": "ưqw1",
+      "description": "21212",
+      "image": "http://res.cloudinary.com/dv3vzmogk/image/upload/v1659720170/anhhtus/fkqnajnznbnrbl4j3upl.png",
       "id": 12
+    },
+    {
+      "name": "CPU",
+      "originalPrice": 12212,
+      "saleOffPrice": 111,
+      "categories": 3,
+      "detailCate": 8,
+      "feature": "1221",
+      "description": "212122",
+      "image": "http://res.cloudinary.com/dv3vzmogk/image/upload/v1659720650/anhhtus/keyv3lhaevqldzcnlad4.png",
+      "id": 13
+    },
+    {
+      "name": "Tai nghe",
+      "originalPrice": 121212,
+      "saleOffPrice": 112,
+      "categories": 2,
+      "detailCate": 4,
+      "feature": "11212",
+      "description": "2121212",
+      "image": "http://res.cloudinary.com/dv3vzmogk/image/upload/v1659720688/anhhtus/ua6kdv68mppgwxl0dsvx.png",
+      "id": 14
     }
   ],
   "categories": [
     {
+      "name": "Điện thoại",
+      "id": 1,
+      "key": "1"
+    },
+    {
+      "name": "Phụ kiện",
+      "id": 2,
+      "key": "2"
+    },
+    {
+      "name": "Linh kiện",
+      "id": 3,
+      "key": "3"
+    }
+  ],
+  "detailCate": [
+    {
       "name": "Iphone",
-      "id": 1
+      "id": 1,
+      "key": "1",
+      "categories": 1
     },
     {
       "name": "Samsung",
-      "id": 2
+      "id": 2,
+      "key": "2",
+      "categories": 1
     },
     {
       "name": "Xiaomi",
+      "id": 3,
+      "key": "3",
+      "categories": 1
+    },
+    {
+      "name": "Phụ kiện Apple",
+      "id": 4,
+      "key": "4",
+      "categories": 2
+    },
+    {
+      "name": "Dán màn hình",
+      "id": 5,
+      "key": "5",
+      "categories": 2
+    },
+    {
+      "name": "Ốp lưng - Bao da",
+      "id": 6,
+      "key": "6",
+      "categories": 2
+    },
+    {
+      "name": "PC ráp sẵn CellphoneS",
+      "id": 7,
+      "key": "7",
+      "categories": 3
+    },
+    {
+      "name": "CPU",
+      "id": 8,
+      "key": "8",
+      "categories": 3
+    }
+  ],
+  "users": [
+    {
+      "email": "longvtph14046@fpt.edu.vn",
+      "password": "$2a$10$5ox7UnGlO0yGD8Ma23HgKe3M4q9Sme1ebqM5MEtsFJMfgI4H2QoeS",
+      "phone": "0392127565",
+      "id": 1
+    },
+    {
+      "email": "longvtph14041226@fpt.edu.vn",
+      "password": "$2a$10$G/.CPiJdI2aAOwdrgQq2f.FDNIOe2XOE0UYYxSpjJl7eiV4lLuesS",
+      "phone": "0392127565",
+      "id": 2
+    },
+    {
+      "email": "longvtph1401246@fpt.edu.vn",
+      "password": "$2a$10$XJOzGxJsv2R33eOSth7YZ.OK6ZZ3vf12.O997zhh3.x.dE31T1xIW",
+      "phone": "0392127565",
       "id": 3
+    },
+    {
+      "email": "longvtp1221h14046@fpt.edu.vn",
+      "password": "$2a$10$OVZ.38xywtd6sn.waJDS2.ly/T5.3ApLez9W6raqpy4yct413AznG",
+      "phone": "0392127565",
+      "id": 4
     }
   ]
 }

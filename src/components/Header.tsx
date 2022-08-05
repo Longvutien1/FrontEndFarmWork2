@@ -8,6 +8,7 @@ import { Col, Row } from 'antd'
 import { UserOutlined } from '@ant-design/icons';
 import MenuHeader from './MenuHeader';
 import { useCart } from 'react-use-cart';
+import { Link } from 'react-router-dom';
 const Header = () => {
    
     return (
@@ -15,7 +16,7 @@ const Header = () => {
         <HeaderCo style={{padding:"10px 0"}} >
             <Menu>
                 <div >
-                    <Logo src={logo} alt="" />
+                    <Link to={'/'}><Logo src={logo} alt="" /></Link>
                 </div>
 
                 <div style={{ margin: "auto 0" }}>

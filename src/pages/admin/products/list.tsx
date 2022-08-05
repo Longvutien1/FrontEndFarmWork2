@@ -71,6 +71,7 @@ const ListProduct = () => {
     }
     
     const columns: ColumnsType<DataType> = [
+       
         {
             title: 'Tên sản phẩm',
             dataIndex: 'name',
@@ -89,7 +90,7 @@ const ListProduct = () => {
             title: 'Đặc điểm',
             dataIndex: 'feature',
             key: 'feature',
-            render: text => <a>{text}</a>,
+            render: text => <p>{text}</p>,
 
 
         },
@@ -97,7 +98,7 @@ const ListProduct = () => {
             title: 'Loại hàng',
             dataIndex: 'categories',
             key: 'categories',
-            filters: category.map((item: any) => { return { text: item.name, value: item.name } }),
+            filters: category.map((item: any) => { return { text: item.name, value: item.id } }),
             onFilter: (value, record: any) => {
                 console.log(record.categories);
                 console.log(value);

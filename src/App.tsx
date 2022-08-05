@@ -9,14 +9,16 @@ import ListProduct from './pages/admin/products/list'
 import AddProduct from './pages/admin/products/add'
 import EditProduct from './pages/admin/products/edit'
 import ListCategory from './pages/admin/category/list'
-import { ProductType } from './types.tsx/type'
-import { removeProduct } from './api/products'
 import AddCategory from './pages/admin/category/add'
 import EditCategory from './pages/admin/category/edit'
 import HomePage from './pages/Home'
 import DetailProduct from './pages/DetailProduct'
 import CartPage from './pages/Cart'
 import { CartProvider } from 'react-use-cart'
+import Login from './pages/Login'
+import Register from './pages/Register'
+import ListPhuKien from './pages/admin/phuKien/list'
+import ListLinhKien from './pages/admin/linhKien/linhKien'
 
 
 
@@ -28,26 +30,49 @@ function App() {
   return (
     <div >
       <Routes>
-       
-          <Route path='/' element={ <CartProvider><WebsiteLayout /></CartProvider>}>
-            <Route index element={<HomePage />} />
-            <Route path='/detail/:id' element={<DetailProduct />} />
-            <Route path='/cart' element={<CartPage />} />
-          </Route>
+
+        <Route path='/' element={<CartProvider><WebsiteLayout /></CartProvider>}>
+          <Route index element={<HomePage />} />
+          <Route path='/detail/:id' element={<DetailProduct />} />
+          <Route path='/cart' element={<CartPage />} />
+
+
+        </Route>
+
+        <Route path='/login' element={<Login />} />
+
+        <Route path='/register' element={<Register />} />
 
         <Route path='/admin' element={<AdminLayout />}>
           <Route index element={<Navigate to={"product"} />} />
           <Route path='product'>
             <Route index element={<ListProduct />} />
+
             <Route path='add' element={<AddProduct />} />
             <Route path='edit/:id' element={<EditProduct />} />
 
           </Route>
           <Route path='categories'>
-            <Route index element={<ListCategory />} />
+            <Route index element={<Navigate to={"phone"} />} />
             <Route path='add' element={<AddCategory />} />
             <Route path='edit/:id' element={<EditCategory />} />
+            <Route path='phone'>
+              <Route index element={<ListCategory />} />
+              
+            </Route>
+
+            <Route path='phuKien'>
+              <Route index element={<ListPhuKien />} />
+            </Route>
+
+            <Route path='linhKien'>
+              <Route index element={<ListLinhKien />} />
+            </Route>
+
           </Route>
+
+
+
         </Route>
       </Routes>
     </div>
