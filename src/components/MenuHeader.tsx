@@ -1,19 +1,16 @@
 import React from 'react'
 import { Col, Row } from 'antd'
-import { HomeOutlined, CarOutlined, ShoppingCartOutlined } from '@ant-design/icons';
+import { HomeOutlined, CarOutlined, ShoppingCartOutlined,UserOutlined } from '@ant-design/icons';
 import { Link } from 'react-router-dom';
 import { useCart } from 'react-use-cart';
 const MenuHeader = () => {
-    const {totalItems} = useCart();
+    const { totalItems } = useCart();
+    const user = JSON.parse(localStorage.getItem("user") as string).user;
+    
     return (
         <div style={{ color: "white", margin: "auto 0" }}>
             <Row >
-                <Col span={6}>
-                    <Row style={{ lineHeight: "1.5", display: "block" }}>
-                        <Col >Gọi mua hàng</Col>
-                        <Col>18002097</Col>
-                    </Row>
-                </Col>
+
 
                 <Col span={6}>
                     <Row style={{ lineHeight: "1.5" }}>
@@ -28,11 +25,19 @@ const MenuHeader = () => {
                         <Col span={14}>Tra cứu <br /> đơn hàng</Col>
                     </Row>
                 </Col>
-                <Col span={6}>
-                    <Link to={'/cart'} style={{color:"#fff"}}>
+                <Col span={6} style={{margin:"auto"}}>
+                    <Link to={'/cart'} style={{ color: "#fff" }}>
                         <Row style={{ lineHeight: "1.5" }}>
-                            <Col span={8} style={{ margin: "auto 0", fontSize: "30px", display:"flex" }}><ShoppingCartOutlined /> <span style={{fontSize:"13px", marginTop:"auto"}}>{totalItems} </span></Col>
-                            <Col span={14} style={{margin:"auto"}}>Giỏ  hàng</Col>
+                            <Col span={8} style={{ margin: "auto 0", fontSize: "30px", display: "flex" }}><ShoppingCartOutlined /> <span style={{ fontSize: "13px", marginTop: "auto" }}>{totalItems} </span></Col>
+                            <Col span={14} style={{ margin: "auto" }}>Giỏ  hàng</Col>
+                        </Row>
+                    </Link>
+                </Col>
+                <Col span={6} style={{margin:"auto"}}>
+                    <Link to={'/login'} style={{ color: "#fff" }}>
+                        <Row style={{ lineHeight: "1.5" }}>
+                            <Col span={8} style={{ margin: "auto 0", fontSize: "30px"}}><UserOutlined /> </Col>
+                            <Col span={14} style={{ margin: "auto" }}>{user?.email}</Col>
                         </Row>
                     </Link>
                 </Col>

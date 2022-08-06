@@ -25,6 +25,12 @@ export const getCatebyId:any = (id:any) => {
     return instance.get(url);
 }   
 
+
+export const listAllDetail:any = () => {
+    const url = `/detailCate`;
+    return instance.get(url);
+}
+
 // điện thoại
 
 

@@ -1,5 +1,5 @@
 import { Card, List } from 'antd';
-import React from 'react'
+import React, { useEffect } from 'react'
 import styled from 'styled-components';
 
 import {StarOutlined, StarTwoTone} from '@ant-design/icons';
@@ -7,12 +7,19 @@ import { useQuery } from 'react-query';
 import { listProduct } from '../api/products';
 import { Link } from 'react-router-dom';
 import { currency } from '../helper/helper';
+import { useDispatch, useSelector } from 'react-redux';
+import { getAllProduct } from '../features/Slide/product/product';
 type Props = {}
 
 const ListProduct = (props: Props) => {
-  
+    const listProduct = useSelector((item:any) => item.product.value)
     const {isLoading, data, error} = useQuery<any>(['Product'], listProduct)
     const loadData = data?.data
+    console.log(listProduct);
+    const dispatch = useDispatch();
+    useEffect(() => {
+        dispatch(getAllProduct())
+    },[])
     
     return (
         <div >
@@ -28,7 +35,7 @@ const ListProduct = (props: Props) => {
                     xxl: 3,
                 }}
                 
-                dataSource={loadData}
+                dataSource={listProduct}
                 renderItem={(item:any) => (
                     <List.Item>
                         
