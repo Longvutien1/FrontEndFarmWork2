@@ -19,6 +19,7 @@ import Login from './pages/Login'
 import Register from './pages/Register'
 import ListPhuKien from './pages/admin/phuKien/list'
 import ListLinhKien from './pages/admin/linhKien/linhKien'
+import PrivateRoute from './midlerware/PrivateRoute'
 
 
 
@@ -43,7 +44,7 @@ function App() {
 
         <Route path='/register' element={<Register />} />
 
-        <Route path='/admin' element={<AdminLayout />}>
+        <Route path='/admin' element={<PrivateRoute><AdminLayout /></PrivateRoute>}>
           <Route index element={<Navigate to={"product"} />} />
           <Route path='product'>
             <Route index element={<ListProduct />} />

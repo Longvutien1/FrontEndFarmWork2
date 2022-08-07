@@ -6,9 +6,9 @@
       "saleOffPrice": 10790000,
       "categories": 1,
       "detailCate": 1,
-      "feature": " Trước khi mua bất kỳ chiếc điện thoại nào, người dùng cũng sẽ quan tâm đến thiết kế sản phẩm trước. Với phiên bản A73, Samsung đã tạo nên một chiếc smartphone với vẻ ngoài mang đến cảm giác sang trọng và tinh tế.",
-      "description": "[HOT] Thu cũ lên đời giá cao - Thủ tục nhanh - Trợ giá lên tới 1.000.000đ ",
-      "image": "http://res.cloudinary.com/dv3vzmogk/image/upload/v1659121735/anhhtus/i4md2zz0tjbcxic7daze.png",
+      "feature": " [HOT] Thu cũ lên đời giá cao - Thủ tục nhanh - Trợ giá lên tới 1.000.000đ",
+      "description": "Trước khi mua bất kỳ chiếc điện thoại nào, người dùng cũng sẽ quan tâm đến thiết kế sản phẩm trước. Với phiên bản A73, Samsung đã tạo nên một chiếc smartphone với vẻ ngoài mang đến cảm giác sang trọng và tinh tế.",
+      "image": "http://res.cloudinary.com/dv3vzmogk/image/upload/v1659854971/anhhtus/ubgokizrwff9slu6mixy.png",
       "id": 5
     },
     {
@@ -17,9 +17,9 @@
       "saleOffPrice": 27390000,
       "categories": 1,
       "detailCate": 1,
-      "feature": "1212aa",
-      "description": "Thu cũ lên đời - Trợ giá 1 triệu",
-      "image": "http://res.cloudinary.com/dv3vzmogk/image/upload/v1658830588/anhhtus/of3vjuw7xmwduwzeksml.png",
+      "feature": "Thu cũ lên đời - Trợ giá 1 triệu",
+      "description": "âsassas",
+      "image": "http://res.cloudinary.com/dv3vzmogk/image/upload/v1659855101/anhhtus/xkujx9oa1hszzociwqki.png",
       "id": 6
     },
     {
@@ -28,9 +28,9 @@
       "saleOffPrice": 25590000,
       "categories": 1,
       "detailCate": 1,
-      "feature": "12122",
-      "description": "[HOT] Thu cũ lên đời giá cao - Thủ tục nhanh - Trợ giá lên tới 1.000.000đ và nhiều ưu đãi khác",
-      "image": "http://res.cloudinary.com/dv3vzmogk/image/upload/v1658830618/anhhtus/ff45qkjewoorfhznylmc.png",
+      "feature": "[HOT] Thu cũ lên đời giá cao - Thủ tục nhanh - Trợ giá lên tới 1.000.000đ và nhiều ưu đãi khác",
+      "description": "ggggggggdf",
+      "image": "http://res.cloudinary.com/dv3vzmogk/image/upload/v1659855116/anhhtus/jb5e2dqw6d3gajjwt2cj.png",
       "id": 7
     },
     {
@@ -39,9 +39,9 @@
       "saleOffPrice": 25090000,
       "categories": 1,
       "detailCate": 2,
-      "feature": "112212",
-      "description": "Dịch vụ phòng chờ hạng thương gia tại sân bay và",
-      "image": "http://res.cloudinary.com/dv3vzmogk/image/upload/v1658830633/anhhtus/w5nhbbigaiwpnjmhokji.png",
+      "feature": "Dịch vụ phòng chờ hạng thương gia tại sân bay ",
+      "description": "ssssssssq",
+      "image": "http://res.cloudinary.com/dv3vzmogk/image/upload/v1659855131/anhhtus/tl4ojeqwlxuhzwacvi1n.png",
       "id": 8
     },
     {
@@ -50,9 +50,9 @@
       "saleOffPrice": 19590000,
       "categories": 1,
       "detailCate": 1,
-      "feature": "gfgf",
-      "description": "Thu cũ lên đời - Trợ giá 1 triệu",
-      "image": "http://res.cloudinary.com/dv3vzmogk/image/upload/v1658830645/anhhtus/ubv0pctf8lbsep8chwcq.png",
+      "feature": "Thu cũ lên đời - Trợ giá 1 triệu",
+      "description": "ddwdwdw",
+      "image": "http://res.cloudinary.com/dv3vzmogk/image/upload/v1659855152/anhhtus/ve3affd5anjobybvydf6.png",
       "id": 9
     },
     {
@@ -61,10 +61,21 @@
       "saleOffPrice": 3850000,
       "categories": 1,
       "detailCate": 3,
-      "feature": "feff",
-      "description": "Thu cũ đổi mới - Trợ giá đến 300.000đ",
-      "image": "http://res.cloudinary.com/dv3vzmogk/image/upload/v1658830654/anhhtus/xja3lvci8xqqjnfok0xx.png",
+      "feature": "Thu cũ đổi mới - Trợ giá đến 300.000đ",
+      "description": "dqdqdq",
+      "image": "http://res.cloudinary.com/dv3vzmogk/image/upload/v1659855165/anhhtus/wt8dctcomx99z7muchk2.png",
       "id": 10
+    },
+    {
+      "name": "Xiaomi Redmi Note 12",
+      "originalPrice": 67800000,
+      "saleOffPrice": 4050000,
+      "categories": 1,
+      "detailCate": 3,
+      "feature": "Thu cũ đổi mới - Trợ giá đến 300.000đ",
+      "description": "dqdqdq",
+      "image": "http://res.cloudinary.com/dv3vzmogk/image/upload/v1659855165/anhhtus/wt8dctcomx99z7muchk2.png",
+      "id": 15
     },
     {
       "name": "iPhone 12 64GB I Chính hãng VN/A",
@@ -72,9 +83,9 @@
       "saleOffPrice": 15990000,
       "categories": 1,
       "detailCate": 1,
-      "feature": "1212",
-      "description": "[HOT] Thu cũ lên đời giá cao - Thủ tục nhanh - Trợ giá lên tới 1.000.000đ",
-      "image": "http://res.cloudinary.com/dv3vzmogk/image/upload/v1658830662/anhhtus/nsnuiq4dbgaxisvpuwla.png",
+      "feature": "[HOT] Thu cũ lên đời giá cao - Thủ tục nhanh - Trợ giá lên tới 1.000.000đ",
+      "description": "sqsqs",
+      "image": "http://res.cloudinary.com/dv3vzmogk/image/upload/v1659855178/anhhtus/c4n5gl86rzdq8jk5sgyh.png",
       "id": 11
     },
     {
@@ -183,25 +194,36 @@
       "email": "longvtph14046@fpt.edu.vn",
       "password": "$2a$10$5ox7UnGlO0yGD8Ma23HgKe3M4q9Sme1ebqM5MEtsFJMfgI4H2QoeS",
       "phone": "0392127565",
+      "role": "0",
       "id": 1
     },
     {
       "email": "longvtph14041226@fpt.edu.vn",
       "password": "$2a$10$G/.CPiJdI2aAOwdrgQq2f.FDNIOe2XOE0UYYxSpjJl7eiV4lLuesS",
       "phone": "0392127565",
+      "role": "0",
       "id": 2
     },
     {
       "email": "longvtph1401246@fpt.edu.vn",
       "password": "$2a$10$XJOzGxJsv2R33eOSth7YZ.OK6ZZ3vf12.O997zhh3.x.dE31T1xIW",
       "phone": "0392127565",
+      "role": "0",
       "id": 3
     },
     {
       "email": "longvtp1221h14046@fpt.edu.vn",
       "password": "$2a$10$OVZ.38xywtd6sn.waJDS2.ly/T5.3ApLez9W6raqpy4yct413AznG",
       "phone": "0392127565",
+      "role": "0",
       "id": 4
+    },
+    {
+      "email": "admin@gmail.com",
+      "password": "$2a$10$ZuM7pXJxPUcwrL0OE4Tb.OgdBmyL.lUlEV9O6sT2OkrvPT2Wjs.I.",
+      "phone": "0392127565",
+      "role": "1",
+      "id": 5
     }
   ]
 }
