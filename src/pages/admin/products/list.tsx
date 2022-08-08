@@ -124,6 +124,8 @@ const ListProduct = () => {
     }, [])
 
     // const { isLoading, data, error } = useQuery<any>(['Product'], listProduct)
+    console.log(productData);
+    
     const dataTable = productData.map((item: any, index: number) => {
         return {
             key: index + 1,

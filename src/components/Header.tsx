@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import styled from 'styled-components'
 import { Input } from 'antd';
 import { MailOutlined, AppstoreOutlined, SearchOutlined } from '@ant-design/icons';
@@ -9,6 +9,10 @@ import { UserOutlined } from '@ant-design/icons';
 import MenuHeader from './MenuHeader';
 import { useCart } from 'react-use-cart';
 import { Link } from 'react-router-dom';
+import PostFilterFormSearch from './SearchBar';
+import SearchBar from './SearchBar';
+import { useDispatch, useSelector } from 'react-redux';
+import { getAllProduct } from '../features/Slide/product/product';
 const Header = () => {
    
     return (
@@ -21,8 +25,9 @@ const Header = () => {
 
                 <div style={{ margin: "auto 0" }}>
                     <div>
-                        <Input size="large" placeholder=" Search here..." style={{ borderRadius: "10px" }} prefix={<SearchOutlined/>} />
+                        {/* <Input size="large" placeholder=" Search here..." style={{ borderRadius: "10px" }} prefix={<SearchOutlined/>} /> */}
                         {/* <Search placeholder="input search text" /> */}
+                        <SearchBar  ></SearchBar>
                     </div>
                 </div>
 

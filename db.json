@@ -131,6 +131,17 @@
       "description": "ffff",
       "image": "http://res.cloudinary.com/dv3vzmogk/image/upload/v1659856303/anhhtus/xgpjgalu3ybxnxrcm6on.png",
       "id": 16
+    },
+    {
+      "image": "http://res.cloudinary.com/dv3vzmogk/image/upload/v1659889019/anhhtus/pbco6cqrnazclihgyxqa.jpg",
+      "name": "Vũ Tiến Long",
+      "originalPrice": 12122,
+      "saleOffPrice": 1212,
+      "categories": 2,
+      "detailCate": 5,
+      "feature": "21212",
+      "description": "1212",
+      "id": 17
     }
   ],
   "categories": [

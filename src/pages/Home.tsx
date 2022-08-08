@@ -7,6 +7,7 @@ import Sidebar from '../components/Sidebar'
 
 
 const HomePage = () => {
+   
     return (
         <div>
             <section style={{ width: "80%", margin: "10px auto", display: "flex", }}>

@@ -8,7 +8,7 @@ import { useQuery } from 'react-query';
 import { listCate } from '../../../api/category';
 import { useDispatch } from 'react-redux';
 import { getAllDetailCate, getListCateDetailById } from '../../../features/Slide/categoryPhone/catePhone';
-import { getCateNameById } from '../../../features/Slide/category';
+import { getCateNameById } from '../../../features/Slide/categorySlice';
 
 
 
@@ -24,7 +24,6 @@ const EditProduct = () => {
 	const { id } = useParams();
 	const [form] = Form.useForm();
 	const dispatch = useDispatch();
-	console.log(listCateDetail);
 
 	const onHandleAdd = (image: any) => {
 		// console.log(image);

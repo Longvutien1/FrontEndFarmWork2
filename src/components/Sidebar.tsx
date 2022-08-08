@@ -4,7 +4,7 @@ import type { MenuProps } from 'antd';
 import { Menu } from 'antd';
 import { useDispatch, useSelector } from 'react-redux';
 import { listCate } from '../api/category';
-import {  getCateNameById, getListCategory } from '../features/Slide/category';
+import {  getCateNameById, getListCategory } from '../features/Slide/categorySlice';
 import { getAllDetailCate, getListCateDetailById } from '../features/Slide/categoryPhone/catePhone';
 import { listProductIdCateDetail } from '../api/products';
 import { getProductIdCateDetail } from '../features/Slide/product/product';

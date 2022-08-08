@@ -4,8 +4,9 @@ import Footer from '../Footer'
 import Header from '../Header'
 
 const WebsiteLayout = () => {
+    
     return (
-        <div>
+        <div style={{position:"relative"}}>
             <Header />
             <Outlet/>
                 <Footer/>
