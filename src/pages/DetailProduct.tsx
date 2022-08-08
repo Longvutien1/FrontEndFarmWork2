@@ -117,7 +117,7 @@ const DetailProduct = () => {
                     onSwiper={(swiper) => console.log(swiper)}
                     onSlideChange={() => console.log('slide change')}
                 >
-                    {productCate?.map((item: any, index: number) =>
+                    {productCate?.filter((item:any) => item.id != productId.id).map((item: any, index: number) =>
                         <SwiperSlide key={index + 1}>
                             
                             <Col>
