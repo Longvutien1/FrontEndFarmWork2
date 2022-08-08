@@ -142,7 +142,7 @@ const DetailProduct = () => {
                     <h3 style={{ color: "red", textAlign:"center" }}>ĐẶC ĐIỂM  NỔI BẬT</h3>
                     <p>{productId.feature }</p>
                 </DacDiemNoiBat>
-                <p>{productId.description}</p>
+                <div dangerouslySetInnerHTML={{__html:`${productId.description}`}}></div>
             </section>
         </div>
     )

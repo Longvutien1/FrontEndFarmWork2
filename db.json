@@ -1,14 +1,14 @@
 {
   "products": [
     {
+      "image": "http://res.cloudinary.com/dv3vzmogk/image/upload/v1659854971/anhhtus/ubgokizrwff9slu6mixy.png",
       "name": "iPhone 11 64GB I Chính hãng VN/A",
       "originalPrice": 18000000,
       "saleOffPrice": 10790000,
       "categories": 1,
       "detailCate": 1,
       "feature": " [HOT] Thu cũ lên đời giá cao - Thủ tục nhanh - Trợ giá lên tới 1.000.000đ",
-      "description": "Trước khi mua bất kỳ chiếc điện thoại nào, người dùng cũng sẽ quan tâm đến thiết kế sản phẩm trước. Với phiên bản A73, Samsung đã tạo nên một chiếc smartphone với vẻ ngoài mang đến cảm giác sang trọng và tinh tế.",
-      "image": "http://res.cloudinary.com/dv3vzmogk/image/upload/v1659854971/anhhtus/ubgokizrwff9slu6mixy.png",
+      "description": "<ul><li>Trước khi mua bất kỳ chiếc điện thoại nào, người dùng cũng sẽ quan tâm đến thiết kế sản phẩm trước.</li><li> Với phiên bản A73, Samsung đã tạo nên một chiếc smartphone với vẻ ngoài mang đến cảm giác sang trọng và tinh tế.</li></ul>",
       "id": 5
     },
     {
@@ -100,17 +100,6 @@
       "id": 12
     },
     {
-      "name": "CPU",
-      "originalPrice": 12212,
-      "saleOffPrice": 111,
-      "categories": 3,
-      "detailCate": 8,
-      "feature": "1221",
-      "description": "212122",
-      "image": "http://res.cloudinary.com/dv3vzmogk/image/upload/v1659720650/anhhtus/keyv3lhaevqldzcnlad4.png",
-      "id": 13
-    },
-    {
       "name": "Tai nghe",
       "originalPrice": 121212,
       "saleOffPrice": 112,
@@ -142,6 +131,17 @@
       "feature": "21212",
       "description": "1212",
       "id": 17
+    },
+    {
+      "name": "Vũ Tiến Long",
+      "originalPrice": 1212,
+      "saleOffPrice": 112,
+      "categories": 2,
+      "detailCate": 5,
+      "feature": "12212",
+      "description": "<ul><li>vv1212</li><li>12122</li><li>fergrrg</li></ul>",
+      "image": "http://res.cloudinary.com/dv3vzmogk/image/upload/v1659970320/anhhtus/zalshdqmxhf7yqqjxp0n.jpg",
+      "id": 18
     }
   ],
   "categories": [
@@ -245,6 +245,80 @@
       "password": "$2a$10$ZuM7pXJxPUcwrL0OE4Tb.OgdBmyL.lUlEV9O6sT2OkrvPT2Wjs.I.",
       "phone": "0392127565",
       "role": "1",
+      "id": 5
+    }
+  ],
+  "orders": [
+    {
+      "address": "Phu xuyen",
+      "confirmAddress": "<p>qwqw</p>",
+      "name": "Vũ Tiến Long",
+      "phone": "+84378923745",
+      "listProduct": [
+        {
+          "id": 6,
+          "name": "iPhone 13 Pro Max 128GB | Chính hãng VN/A",
+          "price": 27390000,
+          "image": "http://res.cloudinary.com/dv3vzmogk/image/upload/v1658830588/anhhtus/of3vjuw7xmwduwzeksml.png",
+          "originalPrice": 34990000,
+          "feature": "1212aa",
+          "description": "Thu cũ lên đời - Trợ giá 1 triệu",
+          "categories": 1,
+          "quantity": 5,
+          "itemTotal": 136950000
+        },
+        {
+          "id": 5,
+          "name": "iPhone 11 64GB I Chính hãng VN/A",
+          "price": 10790000,
+          "image": "http://res.cloudinary.com/dv3vzmogk/image/upload/v1659854971/anhhtus/ubgokizrwff9slu6mixy.png",
+          "originalPrice": 18000000,
+          "feature": " [HOT] Thu cũ lên đời giá cao - Thủ tục nhanh - Trợ giá lên tới 1.000.000đ",
+          "description": "<ul><li>Trước khi mua bất kỳ chiếc điện thoại nào, người dùng cũng sẽ quan tâm đến thiết kế sản phẩm trước.</li><li> Với phiên bản A73, Samsung đã tạo nên một chiếc smartphone với vẻ ngoài mang đến cảm giác sang trọng và tinh tế.</li></ul>",
+          "categories": 1,
+          "quantity": 3,
+          "itemTotal": 32370000
+        }
+      ],
+      "cartTotal": 169320000,
+      "status": "2",
+      "createdAt": "2022-08-08T19:52:59.272Z",
+      "id": 4
+    },
+    {
+      "address": "Phu xuyen",
+      "confirmAddress": "<p>qwqw</p>",
+      "name": "Vũ Tiến Long",
+      "phone": "+84378923745",
+      "listProduct": [
+        {
+          "id": 6,
+          "name": "iPhone 13 Pro Max 128GB | Chính hãng VN/A",
+          "price": 27390000,
+          "image": "http://res.cloudinary.com/dv3vzmogk/image/upload/v1658830588/anhhtus/of3vjuw7xmwduwzeksml.png",
+          "originalPrice": 34990000,
+          "feature": "1212aa",
+          "description": "Thu cũ lên đời - Trợ giá 1 triệu",
+          "categories": 1,
+          "quantity": 5,
+          "itemTotal": 136950000
+        },
+        {
+          "id": 5,
+          "name": "iPhone 11 64GB I Chính hãng VN/A",
+          "price": 10790000,
+          "image": "http://res.cloudinary.com/dv3vzmogk/image/upload/v1659854971/anhhtus/ubgokizrwff9slu6mixy.png",
+          "originalPrice": 18000000,
+          "feature": " [HOT] Thu cũ lên đời giá cao - Thủ tục nhanh - Trợ giá lên tới 1.000.000đ",
+          "description": "<ul><li>Trước khi mua bất kỳ chiếc điện thoại nào, người dùng cũng sẽ quan tâm đến thiết kế sản phẩm trước.</li><li> Với phiên bản A73, Samsung đã tạo nên một chiếc smartphone với vẻ ngoài mang đến cảm giác sang trọng và tinh tế.</li></ul>",
+          "categories": 1,
+          "quantity": 3,
+          "itemTotal": 32370000
+        }
+      ],
+      "cartTotal": 169320000,
+      "status": 0,
+      "createdAt": "2022-08-08T19:59:21.251Z",
       "id": 5
     }
   ]

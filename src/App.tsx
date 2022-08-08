@@ -20,6 +20,8 @@ import Register from './pages/Register'
 import ListPhuKien from './pages/admin/phuKien/list'
 import ListLinhKien from './pages/admin/linhKien/linhKien'
 import PrivateRoute from './midlerware/PrivateRoute'
+import ListOrder from './pages/admin/order/list'
+import DetailOrder from './pages/admin/order/detail'
 
 
 
@@ -71,7 +73,13 @@ function App() {
             </Route>
 
           </Route>
+          
+          <Route path='order'>
+            <Route index element={<ListOrder />} />
+            <Route path='add' element={<AddProduct />} />
+            <Route path='detail/:id' element={<DetailOrder />} />
 
+          </Route>
 
 
         </Route>
