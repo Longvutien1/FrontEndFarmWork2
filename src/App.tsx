@@ -22,6 +22,7 @@ import ListLinhKien from './pages/admin/linhKien/linhKien'
 import PrivateRoute from './midlerware/PrivateRoute'
 import ListOrder from './pages/admin/order/list'
 import DetailOrder from './pages/admin/order/detail'
+import AddPhuKien from './pages/admin/phuKien/add'
 
 
 
@@ -66,6 +67,7 @@ function App() {
 
             <Route path='phuKien'>
               <Route index element={<ListPhuKien />} />
+              <Route path='add' element={<AddPhuKien />} />
             </Route>
 
             <Route path='linhKien'>

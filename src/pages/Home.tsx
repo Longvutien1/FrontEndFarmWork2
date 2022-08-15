@@ -23,9 +23,11 @@ const HomePage = () => {
             <section style={{ width: "80%", margin: "30px auto" }}>
                 <Accessory />
             </section>
+
             <section style={{ width: "80%", margin: "30px auto" }}>
                 <ComputerAccessory />
-            </section></div>
+            </section>
+                </div>
     )
 }
 

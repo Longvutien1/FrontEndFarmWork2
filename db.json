@@ -8,7 +8,7 @@
       "categories": 1,
       "detailCate": 1,
       "feature": " [HOT] Thu cũ lên đời giá cao - Thủ tục nhanh - Trợ giá lên tới 1.000.000đ",
-      "description": "<ul><li>Trước khi mua bất kỳ chiếc điện thoại nào, người dùng cũng sẽ quan tâm đến thiết kế sản phẩm trước.</li><li> Với phiên bản A73, Samsung đã tạo nên một chiếc smartphone với vẻ ngoài mang đến cảm giác sang trọng và tinh tế.</li></ul>",
+      "description": "<ul><li>Trước khi mua bất kỳ chiếc điện thoại nào, người dùng cũng sẽ quan tâm đến thiết kế sản phẩm trước.</li><li><strong>Với phiên bản A73, Samsung đã tạo nên một chiếc smartphone với vẻ ngoài mang đến cảm giác sang trọng và tinh tế.</strong></li></ul>",
       "id": 5
     },
     {
@@ -89,28 +89,6 @@
       "id": 11
     },
     {
-      "image": "http://res.cloudinary.com/dv3vzmogk/image/upload/v1659875313/anhhtus/a30xcihldyqjnssqokh3.jpg",
-      "name": "Vũ Tiến Long",
-      "originalPrice": 121222,
-      "saleOffPrice": 11212,
-      "categories": 2,
-      "detailCate": 5,
-      "feature": "ưqw1",
-      "description": "21212",
-      "id": 12
-    },
-    {
-      "name": "Tai nghe",
-      "originalPrice": 121212,
-      "saleOffPrice": 112,
-      "categories": 2,
-      "detailCate": 4,
-      "feature": "11212",
-      "description": "2121212",
-      "image": "http://res.cloudinary.com/dv3vzmogk/image/upload/v1659720688/anhhtus/ua6kdv68mppgwxl0dsvx.png",
-      "id": 14
-    },
-    {
       "name": "IP14 pro max",
       "originalPrice": 1212,
       "saleOffPrice": 122,
@@ -122,26 +100,147 @@
       "id": 16
     },
     {
-      "image": "http://res.cloudinary.com/dv3vzmogk/image/upload/v1659889019/anhhtus/pbco6cqrnazclihgyxqa.jpg",
-      "name": "Vũ Tiến Long",
-      "originalPrice": 12122,
-      "saleOffPrice": 1212,
-      "categories": 2,
-      "detailCate": 5,
-      "feature": "21212",
-      "description": "1212",
-      "id": 17
+      "name": "ip new",
+      "originalPrice": 12121,
+      "saleOffPrice": 111,
+      "categories": 1,
+      "detailCate": 1,
+      "feature": "qưqwwqwwq",
+      "description": "<p>sqsqsqqsqs</p>",
+      "image": "http://res.cloudinary.com/dv3vzmogk/image/upload/v1660006464/anhhtus/swwyierr9w6vxqhmb9v8.jpg",
+      "id": 20
     },
     {
       "name": "Vũ Tiến Long",
-      "originalPrice": 1212,
-      "saleOffPrice": 112,
+      "originalPrice": 11212,
+      "saleOffPrice": 1121,
+      "categories": 1,
+      "detailCate": 9,
+      "feature": "212122",
+      "description": "<p>212122</p>",
+      "image": "http://res.cloudinary.com/dv3vzmogk/image/upload/v1660586875/anhhtus/acuf2twj5s77b15nek8v.png",
+      "id": 21
+    },
+    {
+      "name": "CPU 1",
+      "originalPrice": 9999999999,
+      "saleOffPrice": 9999999,
+      "categories": 3,
+      "detailCate": 8,
+      "feature": "Sản phẩm mới ",
+      "description": "<ul><li>Uy tín 100%</li><li>Quốc tế</li></ul>",
+      "image": "http://res.cloudinary.com/dv3vzmogk/image/upload/v1660587638/anhhtus/ecmvmvvuo57qlrvjhkpp.jpg",
+      "id": 22
+    },
+    {
+      "name": "CPU 2",
+      "originalPrice": 8888888888,
+      "saleOffPrice": 8888888,
+      "categories": 3,
+      "detailCate": 8,
+      "feature": "Sản phẩm mới",
+      "description": "<ul><li>Chính hãng</li><li>Sản phẩm quốc tế</li></ul>",
+      "image": "http://res.cloudinary.com/dv3vzmogk/image/upload/v1660587732/anhhtus/tbksvjocid7re2vxxyki.jpg",
+      "id": 23
+    },
+    {
+      "name": "CPU 3",
+      "originalPrice": 1111111111,
+      "saleOffPrice": 11111111,
+      "categories": 3,
+      "detailCate": 8,
+      "feature": "Sản phẩm Hot",
+      "description": "<ul><li>Mới 99%</li><li>Quốc tế</li></ul>",
+      "image": "http://res.cloudinary.com/dv3vzmogk/image/upload/v1660587778/anhhtus/haaovnvs3w2ji7p85jsy.jpg",
+      "id": 24
+    },
+    {
+      "name": "Ốp lưng UAG Metropolis iPhone X / XS - en",
+      "originalPrice": 80000,
+      "saleOffPrice": 49000,
+      "categories": 2,
+      "detailCate": 6,
+      "feature": "Sản phẩm Hot",
+      "description": "<ul><li>Chính hãng</li><li>Quốc tế</li></ul>",
+      "image": "http://res.cloudinary.com/dv3vzmogk/image/upload/v1660587905/anhhtus/lqdxqr7hx5qdg1uwtidx.jpg",
+      "id": 25
+    },
+    {
+      "name": "Ốp lưng SGP iPhone X Case Ultra Hybrid S - Crystal Clear",
+      "originalPrice": 90000,
+      "saleOffPrice": 89000,
+      "categories": 2,
+      "detailCate": 6,
+      "feature": "Sản phẩm mới",
+      "description": "<p>Hot</p>",
+      "image": "http://res.cloudinary.com/dv3vzmogk/image/upload/v1660587952/anhhtus/dlwvwlbwv4plsyw5imei.jpg",
+      "id": 26
+    },
+    {
+      "name": "Dán màn hình Macbook chống nhìn trộm",
+      "originalPrice": 100000,
+      "saleOffPrice": 99000,
       "categories": 2,
       "detailCate": 5,
-      "feature": "12212",
-      "description": "<ul><li>vv1212</li><li>12122</li><li>fergrrg</li></ul>",
-      "image": "http://res.cloudinary.com/dv3vzmogk/image/upload/v1659970320/anhhtus/zalshdqmxhf7yqqjxp0n.jpg",
-      "id": 18
+      "feature": "[HOT] Ưu đãi cực lớn - Thủ tục nhanh - Trợ giá lên tới 1.000.000đ",
+      "description": "<ul><li>ÂS</li></ul>",
+      "image": "http://res.cloudinary.com/dv3vzmogk/image/upload/v1660588073/anhhtus/bfdzxxxcjldtrb2huplj.jpg",
+      "id": 27
+    },
+    {
+      "name": "Đồng Hồ Thông Minh Apple Watch Series 4 GPS",
+      "originalPrice": 10000000,
+      "saleOffPrice": 9999999,
+      "categories": 2,
+      "detailCate": 4,
+      "feature": "[HOT] Ưu đãi cực lớn - Thủ tục nhanh - Trợ giá lên tới 1.000.000đ",
+      "description": "<p>âs</p>",
+      "image": "http://res.cloudinary.com/dv3vzmogk/image/upload/v1660588261/anhhtus/fmvcpdbznowdyxddt1qe.jpg",
+      "id": 28
+    },
+    {
+      "name": "Apple Watch SE GPS + Cellular 44mm Space Gray Aluminum",
+      "originalPrice": 99999999,
+      "saleOffPrice": 8888888,
+      "categories": 2,
+      "detailCate": 4,
+      "feature": "[HOT] Ưu đãi cực lớn - Thủ tục nhanh - Trợ giá lên tới 99.999đ",
+      "description": "<p>sấ</p>",
+      "image": "http://res.cloudinary.com/dv3vzmogk/image/upload/v1660588335/anhhtus/xjbt5wcqkeczzgcvfeoj.jpg",
+      "id": 29
+    },
+    {
+      "name": "Tradesy Accessories",
+      "originalPrice": 800000,
+      "saleOffPrice": 500000,
+      "categories": 2,
+      "detailCate": 4,
+      "feature": "[HOT] Ưu đãi cực lớn - Thủ tục nhanh - Trợ giá lên tới 1.000.000đ",
+      "description": "<p>aa</p>",
+      "image": "http://res.cloudinary.com/dv3vzmogk/image/upload/v1660588402/anhhtus/l3kode5rtgqmqsj17ike.jpg",
+      "id": 30
+    },
+    {
+      "name": "Dual AK47 - LED Neon Sign",
+      "originalPrice": 80000000,
+      "saleOffPrice": 70000000,
+      "categories": 3,
+      "detailCate": 7,
+      "feature": "[HOT] Ưu đãi cực lớn - Thủ tục nhanh - Trợ giá lên tới 1.000.000đ",
+      "description": "<p>âs</p>",
+      "image": "http://res.cloudinary.com/dv3vzmogk/image/upload/v1660588543/anhhtus/k53r36dc5fefufbfsbsk.jpg",
+      "id": 31
+    },
+    {
+      "name": "Clean white and baby blue",
+      "originalPrice": 90000000,
+      "saleOffPrice": 80000000,
+      "categories": 3,
+      "detailCate": 7,
+      "feature": "Clean white and baby blue",
+      "description": "<p>âsasass</p>",
+      "image": "http://res.cloudinary.com/dv3vzmogk/image/upload/v1660588619/anhhtus/kp6asipflogcsjrlrmlz.jpg",
+      "id": 32
     }
   ],
   "categories": [
@@ -281,7 +380,7 @@
         }
       ],
       "cartTotal": 169320000,
-      "status": "2",
+      "status": "1",
       "createdAt": "2022-08-08T19:52:59.272Z",
       "id": 4
     },

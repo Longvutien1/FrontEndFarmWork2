@@ -89,7 +89,7 @@ const DetailProduct = () => {
                         <div style={{ position: "relative" }}>
                             <div>
                                 <p ><span style={{ color: "red", fontSize: "24px", fontWeight: "600" }}>{currency(Number(productId?.saleOffPrice))} đ </span><span style={{ color: "gray", paddingLeft: "10px" }}>{currency(Number(productId?.originalPrice))} đ</span></p>
-                                <p> Mô tả ngắn: {productId?.description}</p>
+                                <p> Mô tả ngắn: {productId?.feature}</p>
                             </div>
 
                             <div style={{ position: "absolute", bottom: "0", display: "flex", gap: 20 }}>
